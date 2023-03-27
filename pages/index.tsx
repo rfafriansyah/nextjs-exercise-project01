@@ -1,14 +1,11 @@
-import Header from "@/components/Header";
-import Footer from "../components/Footer";
+import Layout from "@/components/Layout";
 
 import Styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
-      <Header></Header>
+    <Layout>
       <h1 className={Styles["title-homepage"]}>Hello Rhama</h1>
-      <Footer></Footer>
-    </>
+    </Layout>
   );
 }
